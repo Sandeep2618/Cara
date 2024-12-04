@@ -42,6 +42,7 @@ p {
 
 .section-p1 {
   padding: 40px 80px;
+  cursor: pointer;
 }
 
 .section-m1 {
@@ -195,6 +196,9 @@ body {
 
 #feature .fe-box:hover{
   box-shadow:10px 10px 54px rgba(70,62,221,0.1) ;
+  width: 190px;
+  transition: 0.3s ease;
+  border-radius: 4px;
 }
 
 #feature .fe-box img{
@@ -209,6 +213,8 @@ body {
   border-radius: 4px;
   color: #088178;
   background-color: #fddde4;
+  cursor: pointer;
+
 }
 
 #feature .fe-box:nth-child(2) h6{
@@ -474,6 +480,7 @@ margin-bottom: 20px;
   outline: none;
   border-top-right-radius: 0;
   border-bottom-right-radius:0;
+  cursor: pointer;
  }
  #newsletter button{
   background-color: #088178;
@@ -525,6 +532,7 @@ footer .follow i{
   color: #465b52;
   padding-right: 4px;
   cursor: pointer;
+  font-size:20px;
 }
 
 footer .install .row img{
